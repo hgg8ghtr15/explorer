@@ -1,0 +1,39 @@
+---Promise
+
+pending 
+    inical
+fulfilled
+    accepted with success
+rejected
+    resejitada
+settled
+    concluida
+
+Dependencia
+    - axios
+
+    import axios from "axios"; 
+    axios.get('/users').then(res => {
+        console.log(res.data);
+    });|
+
+api google
+    https://developers.google.com/identity/sign-in/web/sign-in
+
+    https://api.github.com/users
+
+
+metodo
+    get
+    post
+    delete
+    put - mais de um upload
+    patch - 1 upload
+
+
+npm innit -y
+
+npm i express
+
+npm i axios
+

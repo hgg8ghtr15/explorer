@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"#-tecnologias\">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   <a href=\"#-projeto\">Projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   <a href=\"#memo-licença\">Lincense</a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "author": "Jakeliny Gracielly",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
