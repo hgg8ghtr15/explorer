@@ -37,3 +37,21 @@ npm i express
 
 npm i axios
 
+Atualizando o node
+    sudo apt install nodejs
+    sudo npm cache clean -f
+    sudo npm install -g n
+    sudo n stable
+
+    sudo n 8.2.6
+    node --version
+
+
+# React
+comando  vite     nomeprojet  template react
+npm create vite@latest reactapp --template react
+npm create vite@latest reactapp --template react
+
+cd reactapp
+npm install
+npm run dev
