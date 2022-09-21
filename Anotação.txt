@@ -55,3 +55,12 @@ npm create vite@latest reactapp --template react
 cd reactapp
 npm install
 npm run dev
+
+npx create-react-app my-app
+    bug do savamento automatically
+    "dev": "CHOKIDAR_USEPOLLING=true vite",
+
+cd my-app
+npm start
+
+
