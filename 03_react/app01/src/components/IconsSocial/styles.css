@@ -1,0 +1,14 @@
+.IconsSocial {
+    margin-top: 50px;
+    display: flex;
+    gap: 35px;
+    /* background-color: aqua; */
+}
+.IconsSocial a{
+    text-decoration: none;
+}
+
+.IconsSocial path {
+    /* fill: blue; */
+    stroke: var(--color)
+}
