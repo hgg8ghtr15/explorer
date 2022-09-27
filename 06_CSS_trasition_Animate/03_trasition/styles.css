@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+
+    align-items: center;
+    height: 100vh;
+}
+.box-red{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.box-red{
+    background-color: brown;
+    transition-property: all ;
+    transition-duration: 2s;
+}
+.box-red:hover{
+    background-color: blueviolet;
+    transition-property: background-color, width ;
+    transition-duration: 2s;
+    width: 200px;
+}
+
+.line{
+    width: 100%;
+    background-color: blue;
+    height: 25px;
+}

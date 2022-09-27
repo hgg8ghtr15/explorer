@@ -1,0 +1,30 @@
+---lista
+git branch
+
+git branch -a "no git"
+
+--- Cria
+git branch -b nomebranch
+
+--- vai para outra
+git checkout nomebranch
+
+--- Ramificar as duas branch como main
+git merge nomebranch 
+
+--- Excluindo branch
+git branch -D nomebranch
+
+git push origin --delete nomebranch
+
+-- atualiza as branch
+git fetch
+git fetch -p
+
+-- faz requisicao pull 
+git pull origin main
+
+
+
+
+
