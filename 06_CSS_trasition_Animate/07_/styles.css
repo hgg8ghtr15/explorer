@@ -1,0 +1,43 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: darkmagenta;
+    position: relative;
+    animation-name: lateral;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.linear{
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.ease{
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+.ease-in{
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+.ease-out{
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+.ease-out{
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+.ease-in-out{
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes lateral {
+    from{
+        left:0px
+    }
+    to{
+        left: calc(100% - 100px);
+    }
+}
